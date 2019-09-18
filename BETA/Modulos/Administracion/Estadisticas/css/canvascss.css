@@ -1,0 +1,27 @@
+canvas {
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+
+		/*estilos para las tarjetas al dar click*/
+		a[data-active="collapse"],
+		a[data-toggle="collapse"]:link,
+		a[data-toggle="collapse"]:hover,
+		a[data-toggle="collapse"]:active,
+		a[data-toggle="collapse"]:visited {
+			color: #000000 !important;
+			text-decoration: none;
+			cursor: pointer;
+			outline: 0;
+		}
+
+		/* elimina la seleccion de texto */
+		#cardEstadisticas{
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;	
+		}
