@@ -18,7 +18,7 @@
         <div class="row mt-2 mb-2">
             <div class="col-12 col-sm-12 col-sm-12 offset-md-3 col-md-3 offset-lg-3 col-lg-3 offset-xl-3 col-xl-3 mb-2" href="">
                 <div class="card-body btn-secondary text-center" onclick="Ing(<?php echo "'".number_format($ingresos['SumaPago'],2,'.',',')."'" ; ?>)">
-                    <h3 class="card-title">Ingresos</h3><hr>
+                    <h3 class="card-title" id="Data-Ingresos" data-Open="<?php print_r($dato1); ?>">Ingresos</h3><hr>
                     <h5 class="card-title">Total: $<?php echo number_format($ingresos['SumaPago'],2,'.',','); ?></h5>
                 </div>
             </div>
