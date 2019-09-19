@@ -107,5 +107,5 @@
         </div> 
            
     </div>      
-    <script type="text/javascript" src="/BETA/Modulos/Administracion/Estadisticas/js/Ing-Pag.js"></script>    
+    <script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/Ing-Pag.js"></script>    
        
