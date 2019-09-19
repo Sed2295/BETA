@@ -6,7 +6,7 @@
 			<h4 class="text-titles font-weight-bold">Estadisticas</h4>
 		</div>
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 offset-xl-5 col-xl-3">
-			<small class="text-info font-weight-bold">01-09-2019 al 10-09-2019</small>
+			<small class="text-info font-weight-bold"><?php  $time = time(); echo date("01-m-Y / d-m-Y (H:i:s)", $time);?></small>
 		</div>
 	</div><hr>
     <div id="cards">
