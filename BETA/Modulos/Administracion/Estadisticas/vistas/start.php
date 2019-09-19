@@ -3,7 +3,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <div class="row mt-2">
 		<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
-			<h4 class="text-titles font-weight-bold">Estadisticasssss POR QUE ESTAS ENOJADO PERRITA hola shi</h4>
+			<h4 class="text-titles font-weight-bold">Estadisticas cambio </h4>
 		</div>
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 offset-xl-5 col-xl-3">
 			<small class="text-info font-weight-bold">01-09-2019 al 10-09-2019</small>
