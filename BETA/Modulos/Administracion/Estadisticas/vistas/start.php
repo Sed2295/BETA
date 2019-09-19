@@ -3,7 +3,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <div class="row mt-2">
 		<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
-			<h4 class="text-titles font-weight-bold">Estadisticasssss POR QUE ESTAS ENOJADO PERRITA hola shi</h4>
+			<h4 class="text-titles font-weight-bold">Estadisticassss</h4>
 		</div>
         <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 offset-xl-5 col-xl-3">
 			<small class="text-info font-weight-bold">01-09-2019 al 10-09-2019</small>
@@ -12,7 +12,7 @@
     <div id="cards">
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <h5 class="text-warning">Para mas información selecciona un recuadroooooo</h5>
+                <h5 class="text-warning">Para mas información selecciona un recuadro</h5>
             </div>    
         </div>  
         <div class="row mt-2 mb-2">
@@ -24,9 +24,9 @@
             </div>
             <div class="col-12 col-sm-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="card-body btn-secondary text-center"  onclick="Usu()">
-                    <h3 class="card-title">Usuarios</h3>
+                    <h3 class="card-title">Usuariossss</h3>
                     <hr>
-                    <h5 class="card-title">Total: <?php echo $usuarios['suma']; ?></h5>
+                    <h5 class="card-title">Totalll: <?php echo $usuarios['suma']; ?></h5>
                 </div>
             </div>
         </div>
