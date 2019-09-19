@@ -26,7 +26,7 @@
                 <div class="card-body btn-secondary text-center"  onclick="Usu()">
                     <h3 class="card-title">Usuarios</h3>
                     <hr>
-                    <h5 class="card-title">Total: <?php echo $usuarios['suma']; ?></h5>
+                    <h5 class="card-title">Nuevos: <?php echo $usuarios['suma']; ?></h5>
                 </div>
             </div>
         </div>
