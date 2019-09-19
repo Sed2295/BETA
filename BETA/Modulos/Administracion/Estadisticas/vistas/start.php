@@ -12,7 +12,7 @@
     <div id="cards">
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                <h5 class="text-warning">Para mas información selecciona un recuadro</h5>
+                <h5 class="text-warning">Para mas información seleccione un recuadro.</h5>
             </div>    
         </div>  
         <div class="row mt-2 mb-2">
