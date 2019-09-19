@@ -4,6 +4,7 @@ $( document ).ready(function()
         document.getElementById('cards').style.display='inline' 
         document.getElementById('forever').style.display='none' 
         document.getElementById('income').style.display='none' 
+        document.getElementById('users').style.display = 'none'
     } ) 
 });    
     let Ing =(suma) => {
@@ -12,5 +13,10 @@ $( document ).ready(function()
     document.getElementById('income').style.display = 'inline'
     document.getElementById('titulo_card').innerHTML = "Ingresos"
     document.getElementById('datos_card').innerHTML = "Total: " + "$" + String(suma)
-
+    }
+    let Usu =(suma)=>{
+    document.getElementById('cards').style.display = 'none'   
+    document.getElementById('forever').style.display = 'inline'  
+    document.getElementById('users').style.display = 'inline'
+    
     }

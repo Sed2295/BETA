@@ -24,9 +24,9 @@
             </div>
             <div class="col-12 col-sm-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
                 <div class="card-body btn-secondary text-center"  onclick="Usu()">
-                    <h3 class="card-title">Usuariossss</h3>
+                    <h3 class="card-title">Usuarios</h3>
                     <hr>
-                    <h5 class="card-title">Totalll: <?php echo $usuarios['suma']; ?></h5>
+                    <h5 class="card-title">Total: <?php echo $usuarios['suma']; ?></h5>
                 </div>
             </div>
         </div>
@@ -65,6 +65,7 @@
     require "vistas/Global.php";
     require "actions/income.php";
     require "vistas/Ingresos.php";
+    require "vistas/Users.php";
  ?>   
 <script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/start.js"></script>
 <script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/ingresos.js"></script>
