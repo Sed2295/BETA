@@ -7,53 +7,39 @@
             <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text maxInput"></span>
+                        <span class="input-group-text maxInput">Usuarios</span>
                     </div>
                     <select name="" id="" class="form-control">
                         <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                    </select>
-                </div>
-            </div>
-            <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-2">
-                <div class="input-group input-group-sm mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text maxInput"></span>
-                    </div>
-                    <select name="" id="" class="form-control">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""> </option>
-                        <option value=""></option>
+                        <option value="">Nuevos</option>
+                        <option value="">Nuevos Con pago</option>
+                        <option value="">Usuarios con anualidad</option>
+                        <option value="">Usuarios reactivados</option>
                     </select>
                 </div>
             </div>
         </div>
-        <div class="row ml-4">     
+        <!--div class="row ml-4">     
             <div style="width:600px;" >
                 <canvas id="grafica" width=100 height=60></canvas>        
             </div>
             <div style="width:400px;" >
                 <canvas id="IngresosPastel" width=100 height=80></canvas>        
             </div>
-        </div>   
+        </div-->   
         <div class="row" >
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 offset-xl-1 col-xl-10">
-                <small class="text-warning">Ultimos 5 pagos de hoy</small>
+                <small class="text-warning">Ultimos 5 </small>
             </div>      
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 offset-xl-1 col-xl-10">
                 <div class="table-responsive">
                     <table class="table table-sm table-striped table-hover">
                         <thead class="text-center thead-dark text-white">
                             <tr>
-                                <th width="10%" style="border-radius: 7px 0 0 0;" scope="col">ID</th>
-                                <th width="20%" scope="col">Usuario</th>
-                                <th width="15%" scope="col">Pago</th>
-                                <th width="20%" scope="col">Creación</th>
-                                <th width="20%" scope="col">Periodo</th>
-                                <th width="15%" style="border-radius: 0 7px 0 0;" scope="col" >Metodo</th>
+                                <th width="10%" style="border-radius: 7px 0 0 0;" scope="col">Usuario</th>
+                                <th width="20%" scope="col">RFC</th>
+                                <th width="15%" scope="col">Razón social</th>
+                                <th width="15%" style="border-radius: 0 7px 0 0;" scope="col" >Fecha</th>
                             </tr>
                         </thead>
                         <tbody id="">
@@ -67,20 +53,14 @@
                                 <i class="font-weight-bold"></i>
                                 </td>
                                 <td class="text-center" style="vertical-align:middle;">
-                                    <p><small class="font-weight-bold text-info">RFC:</small><i class="font-weight-bold"></i></p>
-                                </td>
-                                <td class="text-center" style="vertical-align:middle;">
-                                    <p><small class="font-weight-bold text-info">Monto:</small><i class="font-weight-bold">$.00</i></p>
-                                </td>
-                                <td class="text-center" style="vertical-align:middle;">
-                                    <p><small class="font-weight-bold text-info">Aprovado:</small><br><i class="font-weight-bold"></i></p>
-                                </td>
-                                <td class="text-justify" style="vertical-align:middle;">
-                                    <p><small class="font-weight-bold text-info">Inicia:</small><i class="font-weight-bold"></i></p>
-                                    <small class="font-weight-bold text-info">Vence:</small> <i class="font-weight-bold"></i></p>
+                                <i class="font-weight-bold"></i>
                                 </td>
                                 <td class="text-center" style="vertical-align:middle;">
                                 <i class="font-weight-bold"></i>
+                                </td>
+                                <td class="text-justify" style="vertical-align:middle;">
+                                    <p><small class="font-weight-bold text-info">Registro:</small><i class="font-weight-bold"></i></p>
+                                    <small class="font-weight-bold text-info">Ingreso:</small> <i class="font-weight-bold"></i></p>
                                 </td>
                             </tr>
     <?php ?>                       
