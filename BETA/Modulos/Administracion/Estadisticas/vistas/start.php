@@ -66,5 +66,5 @@
     require "actions/income.php";
     require "vistas/Ingresos.php";
  ?>   
-<script type="text/javascript" src="/BETA/Modulos/Administracion/Estadisticas/js/start.js"></script>
-<script type="text/javascript" src="/BETA/Modulos/Administracion/Estadisticas/js/ingresos.js"></script>
+<script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/start.js"></script>
+<script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/ingresos.js"></script>
