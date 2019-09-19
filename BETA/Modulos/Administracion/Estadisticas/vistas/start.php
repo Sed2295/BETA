@@ -65,6 +65,7 @@
     require "vistas/Global.php";
     require "actions/income.php";
     require "vistas/Ingresos.php";
+    require "actions/us.php";
     require "vistas/Users.php";
  ?>   
 <script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/start.js"></script>

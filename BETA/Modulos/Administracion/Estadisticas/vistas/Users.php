@@ -36,10 +36,10 @@
                     <table class="table table-sm table-striped table-hover">
                         <thead class="text-center thead-dark text-white">
                             <tr>
-                                <th width="10%" style="border-radius: 7px 0 0 0;" scope="col">Usuario</th>
-                                <th width="20%" scope="col">RFC</th>
-                                <th width="15%" scope="col">Razón social</th>
-                                <th width="15%" style="border-radius: 0 7px 0 0;" scope="col" >Fecha</th>
+                                <th width="20%" style="border-radius: 7px 0 0 0;" scope="col">ID</th>
+                                <th width="30%" scope="col">Usuario</th>
+                                <th width="20%" scope="col">Membresía</th>
+                                <th width="30%" style="border-radius: 0 7px 0 0;" scope="col" >Fecha</th>
                             </tr>
                         </thead>
                         <tbody id="">
@@ -52,8 +52,9 @@
                                 <td class="text-center" style="vertical-align:middle;">
                                 <i class="font-weight-bold"></i>
                                 </td>
-                                <td class="text-center" style="vertical-align:middle;">
-                                <i class="font-weight-bold"></i>
+                                <td class="text-justify" style="vertical-align:middle;">
+                                <p><small class="font-weight-bold text-info">RFC:</small><i class="font-weight-bold"></i></p>
+                                    <small class="font-weight-bold text-info">Razón social:</small> <i class="font-weight-bold"></i></p>
                                 </td>
                                 <td class="text-center" style="vertical-align:middle;">
                                 <i class="font-weight-bold"></i>
