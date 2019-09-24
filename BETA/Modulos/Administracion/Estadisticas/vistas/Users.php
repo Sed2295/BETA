@@ -74,13 +74,13 @@
         <div class="row">
             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <ul class="pagination justify-content-center">
-                    <li class="page-item disabled" id="Previous-income">
-                        <button class="page-link paginaA" id="ant-income" dataact="1" disabled="" dataact="1" title="Anterior">
+                    <li class="page-item disabled" id="Previous-us">
+                        <button class="page-link paginaA" id="ant-us" dataact="1" disabled="" dataact="1" title="Anterior">
                         <i class="fas fa-arrow-alt-circle-left"></i>
                         </button>
                     </li>
-                    <li class="page-item <?php echo $paginafin=="0" ? 'disabled' : '' ?>" id="next_income">
-                        <button class="page-link paginaS" id="btn-income" datafin = "<?php echo $Tin['suma']; ?>" dataact="1"  title="Siguiente">
+                    <li class="page-item <?php echo $paginafin=="0" ? 'disabled' : '' ?>" id="next_us">
+                        <button class="page-link paginaS" id="btn-us" datafin = "<?php echo $Tin['suma']; ?>" dataact="1"  title="Siguiente">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </button>
                     </li>
