@@ -5,7 +5,7 @@
 	if($_SESSION['usrID'])
 	{
 		$BD = BD_mysql::getInstancia(server,rut,pas,bas);
-		
+		switch($_POST['AC']){
 			/*case 'Psig-ingresos': 
 				$datos = $BD->resultadoQuery("SELECT m.id,m.idEmisor,m.status,m.fechaPago,m.fechaInicio,m.referencia,m.pago,m.metodo,m.fechaPago AS fechaingreso,m.fechainicio AS inicia ,m.fechaCaducidad AS fin,emi.id AS idEmisor ,emi.rfc AS rfc,emi.razons AS rzn,
 				SPLIT_STRING(m.referencia,'-',3) as TEST,
@@ -71,8 +71,9 @@
 				ORDER BY id DESC LIMIT ".(($_POST['n'])*5).",".(($_POST['n']+1)*5).";",BD_mysql::BD_TABLA);
 				$re['estado'] = 1;
 				$re['SQL'] ='SELECT id,fechaIngreso AS fi,rfc,razons,mail,TipoMembresia AS tm,fechaIn AS Ultimasesion FROM tbl_emisors
-				ORDER BY id DESC LIMIT ';
-
+				ORDER BY id DESC LIMIT';
+			break;
+		}
 	
 	}
 	echo json_encode($re);
