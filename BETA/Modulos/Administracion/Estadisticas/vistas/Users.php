@@ -46,25 +46,27 @@
                         </tbody>
                         <tbody id="showPro">
     <?php 
-		
+		foreach($Usuers AS $us)
+		{
+            
 	?>                             
                             <tr class="text-black-50 text-center">
                                 <td class="text-center" style="vertical-align:middle;">
-                                <i class="font-weight-bold"></i>
+                                <i class="font-weight-bold"><?php echo $us->id;?></i>
                                 </td>
                                 <td class="text-justify" style="vertical-align:middle;">
-                                <p><small class="font-weight-bold text-info">RFC:</small><i class="font-weight-bold"></i></p>
-                                    <small class="font-weight-bold text-info">Razón social:</small> <i class="font-weight-bold"></i></p>
+                                <p><small class="font-weight-bold text-info">RFC:</small><i class="font-weight-bold"><?php echo $us->rfc;?></i></p>
+                                    <small class="font-weight-bold text-info">Razón social:</small><br><i class="font-weight-bold"><?php echo $us->razons;?></i></p>
                                 </td>
                                 <td class="text-center" style="vertical-align:middle;">
-                                <i class="font-weight-bold"></i>
+                                <i class="font-weight-bold"><?php echo $us->tm;?></i>
                                 </td>
                                 <td class="text-justify" style="vertical-align:middle;">
-                                    <p><small class="font-weight-bold text-info">Registro:</small><i class="font-weight-bold"></i></p>
-                                    <small class="font-weight-bold text-info">Ingreso:</small> <i class="font-weight-bold"></i></p>
+                                    <p><small class="font-weight-bold text-info">Registro:</small><?php echo $us->fi;?><i class="font-weight-bold"></i></p>
+                                    <small class="font-weight-bold text-info">Ingreso:</small><?php echo $us->Ultimasesion;?><i class="font-weight-bold"></i></p>
                                 </td>
                             </tr>
-    <?php ?>                       
+        <?php }?>                       
                     </table>
                 </div>	
             </div>
@@ -86,5 +88,5 @@
             </div>
         </div>  
     </div>      
-    <!--script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/Ing-Pag.js"></script-->    
+    <script type="text/javascript" src="/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/js/us-Pag.js"></script>    
        
