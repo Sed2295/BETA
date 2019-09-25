@@ -1,9 +1,9 @@
 $( document ).ready(function(){
-	$(".paginaS").click(function(){
+	$(".paginaIn").click(function(){
 		let a = $(this).attr("dataact")
 		let b = $(this).attr("datafin")
 		if(a<b){
-			$.post("/BETA/Modulos/Administracion/Estadisticas/actions/paginacion.php",{AC:"Psig-ingresos", n:$(this).attr("dataact")}, function(data){
+			$.post("/Desarrollo/BETA-2/BETA/Modulos/Administracion/Estadisticas/actions/paginacion.php",{AC:"Psig-ingresos", n:$(this).attr("dataact")}, function(data){
 				if(data.estado==1){
 					$("#btn-income").attr('dataact', data.pag)
 					$("#btn-income").attr('dataact', data.pag)
