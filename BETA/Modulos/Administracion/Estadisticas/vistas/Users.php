@@ -80,7 +80,7 @@
                         </button>
                     </li>
                     <li class="page-item <?php echo $paginafin=="0" ? 'disabled' : '' ?>" id="next_us">
-                        <button class="page-link paginaS" id="btn-us" datafin = "<?php echo $Tin['suma']; ?>" dataact="1"  title="Siguiente">
+                        <button class="page-link paginaUs" id="btn-us" datafin = "<?php echo $Tin['suma']; ?>" dataact="1"  title="Siguiente">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </button>
                     </li>
