@@ -98,7 +98,7 @@
                         </button>
                     </li>
                     <li class="page-item <?php echo $paginafin=="0" ? 'disabled' : '' ?>" id="next_income">
-                        <button class="page-link paginaS" id="btn-income" datafin = "<?php echo $Tin['suma']; ?>" dataact="1"  title="Siguiente">
+                        <button class="page-link paginaIn" id="btn-income" datafin = "<?php echo $Tin['suma']; ?>" dataact="1"  title="Siguiente">
                             <i class="fas fa-arrow-alt-circle-right"></i>
                         </button>
                     </li>
